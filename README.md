@@ -22,7 +22,7 @@ python ./Gait_Search.py \
 --num-session 400
 ```
 
-### Parameter interpretation and default(optimal) values
+### Parameter interpretation and default (optimal) values
 ```
 --log-dir: log file path (required)
 --seed: random number generator seed (default: 2)
@@ -37,4 +37,17 @@ Example:
 ```
 Interpretation:
 
-session number, average reward, mean of signaling reward(standard deviation of signaling reward) session length in steps, final x-directional position, average motor power
+session number, average reward, mean of signaling reward (standard deviation of signaling reward) session length in steps, final x-directional position, average motor power
+
+## Reference
+Please cite this code with the following bibliography:
+
+Han, Z., & Sengupta, A. (2023). Astrocyte Regulated Neuromorphic Central Pattern Generator Control of Legged Robotic Locomotion (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2312.15805
+
+```
+@article{title={Astrocyte Regulated Neuromorphic CPG Control of Legged Robotic Locomotion},
+  author={Han, Zhuangyu and Sengupta, Abhronil},
+  journal={arXiv preprint arXiv:2312.15805},
+  year={2023}
+}
+```
